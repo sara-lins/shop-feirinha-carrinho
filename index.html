@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
+    <script src="https://kit.fontawesome.com/7e71f706ad.js" crossorigin="anonymous"></script>
     <title>Shop Feirinha</title>
 </head>
 <body>
@@ -27,22 +28,22 @@
                     <button class="estiloGeralBotoes estiloGeralBotoes--filtrarPanificadora">Panificadora</button>
                 </div>
                 <div class="containerBuscaPorNome">  
-                    <input type="text" placeholder="Nome do produto" class="campoBuscaPorNome">
-                    <button class="estiloGeralBotoes estiloGeralBotoes--botaoBuscaPorNome">Buscar</button>
+                    <input type="text" placeholder="Buscar por" class="campoBuscaPorNome">
+                    <button class="estiloGeralBotoes estiloGeralBotoes--botaoBuscaPorNome"><i class="fa-solid fa-magnifying-glass"></i></button>
                  </div>
             </div>
-            <div class="containerPrecoTotal">
-                <div>
-                    <p>Valor total dos produtos da sessão selecionada</p>
+            <div class="container-section">
+                <div class="containerListaProdutos" id="listProdutos">
+                    
                 </div>
-                <div>
-                    <div class="div-preco">                     
-                        <p>R$ <span id="precoTotal"></span>.00</p>
+                <div class="containerCarrinho">
+                    <div class="div-titulo">
+                        <p class="titulo-carrinho"><i class="fa-solid fa-cart-shopping"></i> Carrinho</p>
+                    </div>
+                    <div class="div-corpo-carrinho">
+                        
                     </div>
                 </div>
-            </div>
-            <div class="containerListaProdutos" id="listProdutos">
-            
             </div>
         </section>
     </main>
